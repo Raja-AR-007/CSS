@@ -1,0 +1,100 @@
+                      /* linear-gradient */
+/* linear-gradient colors will end with last color followed by the 'direction' */
+/*
+There are many types of 'linear-gradients' are there, They are
+
+to left
+
+to right
+
+to top
+
+to bottom
+
+to bottom left & to bottom right
+
+to top left & to top right
+ */
+
+/* Top Gradient */
+/*#service-image {
+	height: 450px;
+	width: 80%;
+	
+	background: linear-gradient(to top,red,orange,yellow,green);
+	background-size: cover;
+}*/
+
+/* Bottom Gradient */
+/*#service-image {
+	height: 450px;
+	width: 80%;
+	
+	background: linear-gradient(to bottom,rgb(233,45,233),rgba(122,333,444,0));
+	background-size: cover;
+}*/
+
+/* Left Gradient */
+/*#service-image {
+	height: 450px;
+	width: 80%;
+	
+	background: linear-gradient(to left,rgb(233,45,233),rgba(122,333,444,0));
+	background-size: cover;
+}*/
+
+/* Right   Gradient */
+/*#service-image {
+	height: 450px;
+	width: 80%;
+	
+	background: linear-gradient(to right,rgb(233,45,100),rgba(122,333,444,0));
+	background-size: cover;
+}*/
+
+
+                 /* Gradient direction in Numbers */
+/* deg means degree */ 
+/*#service-image {
+	height: 450px;
+	width: 80%;
+	
+	background: linear-gradient(30deg,rgb(233,45,100),rgba(122,333,444,0));
+	background-size: cover; 
+}*/
+
+
+                            /* radial-gradient */
+/* By default radial-gradient will appear like oval shape */
+/*#service-image {
+	height: 450px;
+	width: 80%;
+	
+	background: radial-gradient(rgb(233,45,100),rgba(122,333,444,0),rgb(100,23,400));
+	background-size: cover; 
+}*/
+
+
+ /* we can adjust the colors size by using percentage '%' */
+/* percentage % can only aplicable to 'radial-gradient' */
+/*#service-image {
+	height: 450px;
+	width: 80%;
+	
+	background: radial-gradient(green 30%,blue 40%,orange 50%);
+	background-size: cover; 
+}*/
+ 
+/* shape is defined in the radial-gradient */
+/* circle */
+#service-image {
+	height: 400px;
+	width: 70%;
+	
+	background: radial-gradient(circle,green 10%,blue 40%,orange 60%);  
+	background-size: cover; 
+}
+
+body {
+	background: linear-gradient(to top, rgb(255, 194, 194),rgb(196, 255, 194));
+}

@@ -1,0 +1,18 @@
+
+/* we can use 'class' multiple time and ID's we can use one time */
+
+.title {
+	color:  red;
+}
+
+.subtitle {
+	color:  blue;
+}
+
+.subtitle2 {
+	color: orangered;
+}
+
+#contact-us {
+	color: green;
+}

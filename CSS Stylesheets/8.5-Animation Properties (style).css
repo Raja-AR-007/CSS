@@ -1,0 +1,133 @@
+body {
+	background: linear-gradient(to bottom, rgb(255, 194, 194),rgb(196, 255, 194));
+	text-align: justify;
+}
+
+#about-us-image {
+	height: 300px;
+	width: 300px;
+
+	border: 10px solid blue;
+	float: right;
+	margin: 10px;
+}
+
+.container {
+	background: white;
+	margin: 10px;
+	height: 300px;
+
+	display: flex;  
+	flex-direction: row;              
+	justify-content: center;  
+	align-items: center;    
+}	
+
+.container-item {
+	background: green;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	
+	width: 70px;
+	line-height: 50px;
+	margin: 10px;
+}
+
+.grid-container {
+	background: white;
+	margin: 10px;
+	height: 500px;
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto; 
+}
+
+.grid-item {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	
+	line-height: 40px;
+	width: 70px;
+	margin: 10px;
+}
+
+input, textarea {
+	display: block;
+	margin: 10px;
+}
+
+.submit-button {
+	margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: white;
+	background: blue;
+	-webkit-transition: all 500ms ease 0s;
+	-moz-transition: all 500ms ease 0s;
+	-o-transition: all 500ms ease 0s;
+	transform: matrix(1.5, 0.45, 0.75, 1, 100, 20);
+}
+
+.submit-button:hover {
+	color: black;
+	background: rgb(147, 187, 255);
+	padding: 20px 25px;
+}
+
+                   /* Animation Properties */
+#about-me {
+	/*animation-name: red-to-black;*/
+	/*animation-duration: 4s;*/
+
+	/*we can use ease, ease-in-out, ease-in, ease-out*/
+	/*animation-timing-function: linear;*/
+
+	/*"delay" is used to run after some seconds or time*/
+	/*animation-delay: 2s;*/
+	/*"Negative" value will reduce -2seconds in th animation-duration value*/
+	/*animation-delay: -2s;*/
+
+	/*"iteration-count" it'll loop over given value times */
+	/*animation-iteration-count: 10;*/
+	/*animation-iteration-count: infinite;*/
+
+	/*"alternate" is used to bounce the animation*/
+	/*animation-direction: reverse;*/
+	/*animation-direction: alternate;*/
+	/*animation-direction: alternate-reverse;*/
+
+	/*syntax for "amination property"
+	animation: name duration timing-function delay iteration-count direction; */
+	animation: red-to-black 4s linear 0s infinite alternate-reverse;
+	               /* Browser Support Prefixes */
+	-webkit-animation: red-to-black 4s linear 0s infinite alternate-reverse;
+	-moz-animation: red-to-black 4s linear 0s infinite alternate-reverse;
+	-ms-animation: red-to-black 4s linear 0s infinite alternate-reverse;
+	-o-animation: red-to-black 4s linear 0s infinite alternate-reverse;
+}
+
+@keyframes red-to-black {
+	0% {
+		background: red;
+		text-align: center;
+		transform: translate(0px, 0px);		
+	}
+
+	50% {
+		background: yellow;
+		text-align: center; 
+		transform: translate(10px, 10px);
+	}
+	
+	100% {
+		background: red; 
+		text-align: center;
+		transform: translate(20px, 20px);	
+	}	
+}

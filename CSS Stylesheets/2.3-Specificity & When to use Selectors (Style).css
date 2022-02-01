@@ -1,0 +1,13 @@
+/* classes and ID's are used to override */
+
+h2 {  /* without class & ID's is not efficient */
+	color:  red;
+}
+
+.subtitle {  /* class */
+	color: blue;
+}
+
+#override-services {  /* ID's */
+	color: steelblue;
+}

@@ -1,0 +1,15 @@
+body{
+	background: radial-gradient(circle, rgb(255, 194, 194),rgb(196, 255, 194));
+	font-size: 1.25em;  /*Size*/
+	/*font-size: 20px;*/
+	font-weight: 1000;  /*Bolding*/
+}
+
+#title{
+	font-weight: 100; /*Bolding*/
+}
+
+.italics{
+	font-style: italic;  /*Style*/
+	/*font-style: oblique;*/
+}

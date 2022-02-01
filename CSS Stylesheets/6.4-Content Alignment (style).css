@@ -1,0 +1,37 @@
+body {
+	background: linear-gradient(to bottom, rgb(255, 194, 194),rgb(196, 255, 194));
+	text-align: justify;
+}
+
+/*B height changed in index*/
+/*"justify-content" will align the content only in 'top & bottom'*/
+/*"align-items" will align the content in 'all sides'*/
+.container {
+	background: white;
+	margin: 10px;
+	height: 300px;
+
+	display: flex;  
+	flex-direction: row;     
+	flex-wrap: wrap;         
+	justify-content: center;  /*Content Alignment*/
+	/*justify-content: flex-end;*/
+	/*justify-content: space-between;*/
+	/*justify-content: space-around;*/
+	align-items: center;    /*Content Alignment*/
+	/*align-items: flex-start;*/
+	/*align-items: flex-end;*/
+	/*align-items: stretch;*/
+	/*align-items: baseline;*/  /*It will place all items in the same line*/
+}	
+
+.container-item {
+	background: green;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	
+	width: 70px;
+	line-height: 50px;
+	margin: 10px;
+}

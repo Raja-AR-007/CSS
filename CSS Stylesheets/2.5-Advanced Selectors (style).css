@@ -1,0 +1,34 @@
+/*pseudo selector is more sepcific than advanced general selector*/
+
+/* pseudo Selector */ 
+/*li:last-child {   
+	color:  purple;
+}*/
+                  /* General Selectors */
+h2 + a {
+	color: red;
+}
+
+/*textarea ~ button {
+	color: purple;
+}*/
+
+/*if the button tag is out of form tag it will not work*/
+textarea + button {  
+	color: purple;
+}
+
+ul > li {
+	color: blue;
+}
+
+/*combination of General Selector and Decendend Selector 
+will mess up or cunfuse our code*/
+
+/*General selector have some operator symbol between
+ But Decended Selector will not have any symbol between*/
+
+/* Decendend Selector */
+/*ul li {
+	color: green;
+}*/

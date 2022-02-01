@@ -1,0 +1,17 @@
+.link{
+	/*text-decoration: none;*/
+	/*text-decoration: under-line;*/
+	text-decoration: line-through;
+}
+
+body{
+	background: linear-gradient(to top, rgb(255, 194, 194),rgb(196, 255, 194));
+	text-transform: capitalize;  /*Every single word first letter will be capital*/
+	/*text-transform: lowercase;*/
+	/*text-transform: uppercase;*/
+	text-align: justify;  /*We can also use left, right, center*/
+	/*text-align: left;*/
+	/*text-align: right;*/
+	/*text-align: center;*/
+}
+

@@ -1,0 +1,58 @@
+body {
+	background: linear-gradient(to bottom, rgb(255, 194, 194),rgb(196, 255, 194));
+	text-align: justify;
+}
+
+.container {
+	background: white;
+	margin: 10px;
+	height: 300px;
+
+	display: flex;  
+	flex-direction: row;              
+	justify-content: center;  
+	align-items: center;    
+}	
+
+.container-item {
+	background: green;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	
+	width: 70px;
+	line-height: 50px;
+	margin: 10px;
+}
+
+/*syntax for "grid-template-columns & rows property"
+  grid-template-columns: column1 column2 column3;
+  grid-template-rows: row1 row2 row3 row4; */
+.grid-container {
+	background: white;
+	margin: 10px;
+	height: 600px;
+
+	display: grid;
+
+	              /* Template Colunms & Rows */
+  /*"auto" is used to cover all the space evenly*/
+  /*"grid-template-rows" is used to increase or decrease vertical wise of content*/
+	grid-template-columns: 100px 200px 150px 100px;   
+	grid-template-rows: 100px 100px 100px;
+	/*grid-template-columns: auto auto auto ;*/
+	/*grid-template-columns: auto auto auto auto auto;
+	grid-template-rows: auto auto;*/
+	/*grid-template-columns: auto 100px auto;*/
+}
+
+.grid-item {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	
+	line-height: 40px;
+	width: 70px;
+	margin: 10px;
+
+}

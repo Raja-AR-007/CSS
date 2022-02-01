@@ -1,0 +1,46 @@
+h2:hover {
+	color: red;
+}
+
+.subtitle{
+	color: blue;
+}
+
+                     /* Attribute Selectors */
+
+/*To select all images*/
+/*img[src^="../img/"] {
+	border: 10px solid black;
+}*/
+
+/*Will not select*/
+/*img[src$="../img/"] {
+	border: 10px solid black;
+}*/
+
+/*The image any where in the folder*/
+img[src*="../img/"] {
+	border: 10px solid black;
+}
+
+/*To select single image*/
+/*img[src="../img/img-2.jpg"] {
+	border: 10px solid black;
+}*/
+
+/*This will only work on 'multi calsses'*/
+h2[class~=article-subtitle] {
+	background: green;
+}
+
+/*h2[class|=article-subtitle] {
+	background: green;
+}*/
+
+
+/*
+code for each calss Attribute
+
+subtitle-72374
+subtitle-84890
+*/

@@ -1,0 +1,14 @@
+/*
+0   - 0% color opacity
+
+0.5 - 50% color opacity
+
+1   - 100% color opacity
+ */
+
+
+body {
+	/* 'a' means alpha|opacity|transperency */
+	background: rgba(204,229,255,0.4);  
+}
+

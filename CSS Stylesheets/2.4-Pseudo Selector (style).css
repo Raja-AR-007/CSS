@@ -1,0 +1,40 @@
+/*pseudo selector is more sepcific than advanced general selector*/
+/*pseudo selectors is always followed by colon ':'*/
+
+/*when we placed our mouse pointer on :hover word 
+it will change the color*/
+h2:hover {  /* 1-pseudo Selector */
+	color:  red;
+}
+
+.subtitle {  /* class */
+	color: blue;
+}
+
+#override-services {  /* ID's */
+	color: steelblue;
+}
+
+li:last-child {  /* 2-pseudo Selector */
+	color:  purple;
+}
+
+li:nth-child(1) {  /* 3-pseudo Selector */
+	color: red;
+}
+
+/* :only-child use in when there is one list 'li' 
+ * It will not work one group of data */
+td:only-child {  /* 4-pseudo Selector */
+	color: purple;
+}
+
+/* 5-pseudo Selector */
+#google-link:link {  /* unvisited */
+	color: blue;
+}
+
+/* 5-pseudo Selector */
+#google-link:visited {  
+	color: red;
+}

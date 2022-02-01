@@ -1,0 +1,103 @@
+/* 
+Primary Font: Lato
+Secondary Font: Roboto Condensed
+
+Dark Blue - rgb(70, 137, 244)
+Light Blue - rgb(186, 212, 255)
+
+'Bold' Orange - rgb(229, 158, 66)
+Light Orange - rgb(255, 227, 191)
+*/
+
+body {
+	background: rgba(186, 212, 255, 0.5);
+}
+
+.content {
+	animation-name: fade-in;
+	animation-duration: 2s;
+} 
+
+.sidebar {
+	animation-name: fade-in;
+	animation-duration: 2s;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+	/*transition: 0.5s width, height;*/
+	transition: all 500ms;
+}
+
+img:hover {
+	width: 450px;
+	height: 250px;
+}
+
+#main {
+	display: grid;
+	grid-template-columns: 55% 45%;
+	grid-gap: 50px;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+.image-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.image-grid > img {
+	margin: 10px;
+}
+
+.para-1 > img {
+	float: right;
+	width: 300px;
+	height: 250px;
+	margin: 10px;
+}
+
+.sidebar {
+	background: rgb(255, 227, 191);
+}
+
+.post {
+	border: 5px solid rgb(229, 158, 66);
+	margin: 10px;
+}
+
+.post-title {
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+.post > a {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	color: rgb(70, 137, 244);
+	transition: 0.5s color;
+}
+
+.post > a:hover {
+	color: rgb(186, 212, 255);
+}
+
+@keyframes fade-in {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}

@@ -1,0 +1,58 @@
+
+/*repeat is default in 'background-repeat'*/
+/*#service-image {
+	height: 400px;
+	width: 70%;
+
+	background: url("../img/img-2.jpg");
+	background-repeat: repeat;  
+	background-size: 500px 170px;
+	background-size: cover;
+	background-size: contain;
+	background-color: steelblue;
+}*/
+
+/*#service-image {
+	height: 400px;
+	width: 70%;
+
+	background: url("../img/img-2.jpg");
+	background-repeat: no-repeat;  
+	background-color: steelblue;
+}*/
+
+/*#service-image {
+	height: 400px;
+	width: 70%;
+
+	background: url("../img/img-2.jpg");
+	background-repeat: repeat;  
+	background-color: steelblue;
+}*/
+
+/*#service-image {
+	height: 400px;
+	width: 70%;
+
+	background: url("../img/img-2.jpg");
+	background-size: 50px 30px; 
+	background-color: steelblue;
+}*/
+
+#service-image {
+	height: 400px;
+	width: 70%;
+
+	background: url("../img/img-2.jpg");
+	background-size: cover; 
+	background-color: steelblue;
+}
+
+/*#service-image {
+	height: 400px;
+	width: 70%;
+
+	background: url("../img/img-2.jpg");
+	background-size: contain; 
+	background-color: steelblue;
+}*/
